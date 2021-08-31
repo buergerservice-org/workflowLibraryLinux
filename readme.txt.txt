@@ -1,6 +1,6 @@
 
 workflowLibrary: read data of german Personalausweis with selfauthentication from AusweisApp2
-Version: 0.3
+Version: 0.4
 Author: buergerservice.org e.V. <KeePerso@buergerservice.org>
 Language: English
 
@@ -45,6 +45,7 @@ is my PIN safe?
 ---------------
 versionhistory:
 ---------------
+0.4 added sha256
 0.3 read certificate, german umlaute
 0.2 better workflow
 0.1 start pilotversion

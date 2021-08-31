@@ -21,6 +21,7 @@ namespace workflowLibrary
 		std::string readjson(std::string);
 
 		//openssl wrapper
+		std::string sha256(const std::string str);
 		int encrypt(unsigned char* plaintext, int plaintext_len, unsigned char* key,
 			unsigned char* iv, unsigned char* ciphertext);
 		int decrypt(unsigned char* ciphertext, int ciphertext_len, unsigned char* key,

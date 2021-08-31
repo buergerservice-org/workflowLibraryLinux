@@ -294,7 +294,7 @@ namespace workflowLibrary
 
 
     // https://stackoverflow.com/questions/2262386/generate-sha256-with-openssl-and-c/10632725
-    std::string sha256(const std::string str)
+    std::string workflow::sha256(const std::string str)
     {
         unsigned char hash[SHA256_DIGEST_LENGTH];
         SHA256_CTX sha256;
